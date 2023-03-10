@@ -1,7 +1,7 @@
 import React from "react";
 import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
 import PersonIcon from "@mui/icons-material/Person";
-import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
+import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
 import Header2 from "./Header2";
 
 const Header = () => {
@@ -9,25 +9,27 @@ const Header = () => {
     <div>
       <div
         style={{ backgroundImage: `url('/Images/ZIMO Pro.png')` }}
-        className="w-full object-cover h-[500px] bg-no-repeat bg-cover bg-center">
+        className="w-full object-cover h-[500px] bg-no-repeat bg-cover bg-center"
+      >
         <div className="text-white flex items-center w-full px-4 py-3">
           <div className="left_logos flex">
-          <img
-            src="/Logo_s/ZIMO Menu Icon W.png"
-            alt="logo"
-            className="  w-7 mt-2"/>
-          <div className="ml-4 relative ">
             <img
-              src="/Logo_s/ZIMO W.png"
+              src="/Logo_s/ZIMO Menu Icon W.png"
               alt="logo"
-              className=" w-24 mt-2 hidden md:block"
+              className="  w-7 mt-2"
             />
-            <p className="hidden lg:block top-4 left-28 absolute  font-light text-md  ">
-              ABOUT
-            </p>
+            <div className="ml-4 relative ">
+              <img
+                src="/Logo_s/ZIMO W.png"
+                alt="logo"
+                className=" w-24 mt-2 hidden md:block"
+              />
+              <p className="hidden lg:block top-4 left-28 absolute  font-light text-md  ">
+                ABOUT
+              </p>
+            </div>
           </div>
-          </div>
-          
+
           <div className="lg:ml-[550px] lg:mr-[350px] mx-auto">
             <img
               className="w-36    mt-2"
@@ -35,7 +37,7 @@ const Header = () => {
               alt="Workflow logo"
             />
           </div>
-          
+
           <div className="mt-2 hidden md:block p-2">
             <p className="tracking-wider font-light text-xs text-white">
               17:23 LONDON UNITED KINGDOM <br />
@@ -56,8 +58,13 @@ const Header = () => {
             <PersonIcon />
           </span>
         </div>
-        <p className="text-white  px-4 tracking-wider text-sm"><span className="mr-1"><KeyboardBackspaceIcon/></span>BACK</p>
-     <Header2/>
+        <p className="text-white  px-4 tracking-wider text-sm">
+          <span className="mr-1">
+            <KeyboardBackspaceIcon />
+          </span>
+          BACK
+        </p>
+        <Header2 />
       </div>
     </div>
   );
