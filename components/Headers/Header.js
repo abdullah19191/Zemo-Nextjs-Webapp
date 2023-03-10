@@ -1,6 +1,9 @@
 import React from "react";
 import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
 import PersonIcon from "@mui/icons-material/Person";
+import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
+import Header2 from "./Header2";
+
 const Header = () => {
   return (
     <div>
@@ -12,8 +15,7 @@ const Header = () => {
           <img
             src="/Logo_s/ZIMO Menu Icon W.png"
             alt="logo"
-            className="  w-7 mt-2"
-          />
+            className="  w-7 mt-2"/>
           <div className="ml-4 relative ">
             <img
               src="/Logo_s/ZIMO W.png"
@@ -54,6 +56,8 @@ const Header = () => {
             <PersonIcon />
           </span>
         </div>
+        <p className="text-white  px-4 tracking-wider text-sm"><span className="mr-1"><KeyboardBackspaceIcon/></span>BACK</p>
+     <Header2/>
       </div>
     </div>
   );
