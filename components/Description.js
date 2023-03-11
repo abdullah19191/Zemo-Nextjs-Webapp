@@ -1,4 +1,5 @@
 import React from "react";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const Description = () => {
   return (
@@ -49,6 +50,11 @@ const Description = () => {
               FROM ACROSS THE WORLD
             </p>
           </div>
+        </div>
+        <div className=" flex justify-center items-center">
+        <span className="font-thin material-icons-outlined">
+          <ExpandMoreIcon style={{ fontSize: 80,}} />{" "}
+        </span>
         </div>
       </div>
     </section>
