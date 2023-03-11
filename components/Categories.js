@@ -66,7 +66,7 @@ const Categories = () => {
                 {
                     images.map((url,index)=>(
                 <div className='min-w-[80%] min-h-[22rem] h-48 w-64   md:h-44 p-14 md:p-0 '>
-                    <img src={url} key={index} className='h-full w-full rounded-[2rem]' />
+                    <img src={url} key={index} className='h-full w-full rounded-[1rem]  sm:rounded-[2rem]' />
                 </div>
                     ))
                 }

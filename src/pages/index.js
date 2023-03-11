@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Categories from '../../components/Categories'
 import Description from '../../components/Description'
 import Header from '../../components/Headers/Header'
+import Ticket from '../../components/Ticket'
 
 export default function Home() {
   return (
@@ -18,7 +19,8 @@ export default function Home() {
           <Description/>
           {/* Categories */}
           <Categories/>
-
+          {/* Tickets */}
+          <Ticket/>
     </>
   )
 }
