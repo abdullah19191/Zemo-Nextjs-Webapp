@@ -72,6 +72,10 @@ const Categories = () => {
                 }
             </Carousel>
               </div>
+              <div className="flex justify-center items-center flex-col mt-12 text-center">
+                <h1 className='md:tracking-[.38rem] tracking-[.05rem] text-xl md:text-2xl  font-normal'>ONE PLATFORM FOR ALL PREMIUM LISTINGS</h1>
+                <p className='mt-2 sm:mt-8 md:tracking-[.29rem] tracking-[.05rem] text-md md:text-lg  font-medium'>UNLIMITED POTENTIAL</p>
+              </div>
           </div>
     </section>
   )
