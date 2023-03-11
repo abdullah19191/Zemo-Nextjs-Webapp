@@ -53,7 +53,7 @@ const Description = () => {
         </div>
         <div className=" flex justify-center items-center">
         <span className="font-thin material-icons-outlined">
-          <ExpandMoreIcon style={{ fontSize: 80,}} />{" "}
+          <ExpandMoreIcon style={{ fontSize: 90,color:"gray"}} />{" "}
         </span>
         </div>
       </div>

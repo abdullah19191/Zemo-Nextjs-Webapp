@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Categories from '../../components/Categories'
 import Description from '../../components/Description'
 import Header from '../../components/Headers/Header'
 
@@ -14,7 +15,9 @@ export default function Home() {
           {/* Navbar */}
             <Header/>
           {/* Header */}
-            <Description/>
+          <Description/>
+          {/* Categories */}
+          <Categories/>
 
     </>
   )
