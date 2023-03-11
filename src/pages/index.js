@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Categories from '../../components/Categories'
+import Createser from '../../components/Createser'
 import Description from '../../components/Description'
 import Header from '../../components/Headers/Header'
 import Ticket from '../../components/Ticket'
@@ -14,13 +15,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
           {/* Navbar */}
-            <Header/>
+          <Header/>
           {/* Header */}
           <Description/>
           {/* Categories */}
           <Categories/>
           {/* Tickets */}
           <Ticket/>
+          {/* Create User */}
+          <Createser/>
     </>
   )
 }
