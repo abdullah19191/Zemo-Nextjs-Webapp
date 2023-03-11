@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Description from '../../components/Description'
 import Header from '../../components/Headers/Header'
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
           {/* Navbar */}
             <Header/>
           {/* Header */}
-
+            <Description/>
 
     </>
   )
