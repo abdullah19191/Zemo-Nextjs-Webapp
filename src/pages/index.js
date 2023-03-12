@@ -4,6 +4,7 @@ import Createser from '../../components/Createser'
 import Description from '../../components/Description'
 import Header from '../../components/Headers/Header'
 import Ticket from '../../components/Ticket'
+import VisionGlobe from '../../components/VisionGlobe'
 
 export default function Home() {
   return (
@@ -24,6 +25,8 @@ export default function Home() {
           <Ticket/>
           {/* Create User */}
           <Createser/>
+          {/* Vision */}
+          <VisionGlobe/>
     </>
   )
 }
