@@ -1,14 +1,22 @@
-import React from "react";
+import React,{useEffect} from "react";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 const Description = () => {
+ 
+  useEffect(() => {
+    AOS.init({duration:2000});
+
+  }, [])
+  
+
   return (
     <section className="w-full">
-      <div className="px-8">
-        <div className=" text-xs tracking-[.22rem]  text-center mt-8 font-medium  justify-center flex items-center">
+      <div className="px-8" >
+        <div data-aos='flip-right' className=" text-xs tracking-[.22rem]  text-center mt-8 font-medium  justify-center flex items-center">
           <p>A REAL ESTATE AND PROPERTY PLATFORM THAT IS CHANGING THE WORLD</p>
         </div>
-        <div className=" mt-10 text-center md:text-left">
+        <div  className=" mt-10 text-center md:text-left">
           <h3 className="tracking-[.18rem] text-xl  md:text-2xl">
             A REVOLUTIONARY PLATFORM
           </h3>
@@ -17,7 +25,7 @@ const Description = () => {
           </h2>
           <h1 className="text-4xl md:text-6xl tracking-[.35rem]">WORLDWIDE</h1>
         </div>
-        <div className=" flex flex-col justify-center items-end mt-8 text-center">
+        <div data-aos='zoom-out' className=" flex flex-col justify-center items-end mt-8 text-center">
           <img
             src="/Logo_s/ZIMO ZIG B.png"
             className=" md:w-80 w-72 mx-auto sm:mx-0"
@@ -35,7 +43,7 @@ const Description = () => {
             </p>
           </div>
         </div>
-        <div className="mt-4 text-center    md:text-left">
+        <div data-aos='zoom-out' className="mt-4 text-center    md:text-left">
           <h1 className="tracking-[.27rem] text-2xl md:text-2xl line font-normal">
             THE BEST OF THE BEST
           </h1>
