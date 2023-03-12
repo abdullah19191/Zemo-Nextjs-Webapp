@@ -1,18 +1,10 @@
-import React,{useEffect} from "react";
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import React from "react";
 
 const Ticket = () => {
-  
-  useEffect(() => {
-    AOS.init({duration:2000});
-
-  }, [])
-
   return (
     <section className="w-full px-8">
       <div className=" mt-36 flex justify-between items-center flex-col lg:flex-row ">
-        <div className="left" data-aos='flip-right'>
+        <div className="left">
           <img src="/Logo_s/ZIMO B.png" alt="" className=" w-72" />
           <div className=" mt-4">
             <h3 className=" tracking-widest text-xl  md:text-2xl">
@@ -27,7 +19,7 @@ const Ticket = () => {
           </div>
         </div>
         <div className="right lg:mr-16 mt-4 lg:mt-0">
-          <div className=" max-w-[100%] sm:w-[750px]" data-aos='fade-left'>
+          <div className=" max-w-[100%] sm:w-[750px]">
             <img
               src="/Images/Property 1821.jpg"
               alt=""
