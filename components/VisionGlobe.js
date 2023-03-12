@@ -14,7 +14,7 @@ const VisionGlobe = () => {
             <p className="tracking-wide sm:tracking-wider text-xs font-[600] text-gray-900 mt-6">
             WITH A REMOTE CULTURE, DIVERSITYIS NATURALLY IN OUR DNA</p>
             <p className="tracking-wide sm:tracking-wider text-xs font-[600] text-gray-900 ">
-            BASED ACROS THE GLOBE , MAKING UP OVER 23 DIFFERENT NATIONALITIES
+            BASED ACROS THE GLOBE, MAKING UP OVER 23 DIFFERENT NATIONALITIES
             </p>
       </div>
     </div>

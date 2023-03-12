@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Advertisment from '../../components/Advertisment'
 import Categories from '../../components/Categories'
 import Createser from '../../components/Createser'
 import Description from '../../components/Description'
@@ -27,6 +28,8 @@ export default function Home() {
           <Createser/>
           {/* Vision */}
           <VisionGlobe/>
+          {/* Advertisment */}
+          <Advertisment/>
     </>
   )
 }
