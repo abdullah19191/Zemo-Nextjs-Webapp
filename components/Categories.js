@@ -36,7 +36,7 @@ const Categories = () => {
     <section className="w-full">
       <div className="px-8 mt-28">
         <div className=" flex justify-between items-center">
-          <h1 className="md:tracking-[.35rem] tracking-[.05rem] text-2xl md:text-3xl line font-normal">
+          <h1 className="md:tracking-[.35rem] tracking-[.05rem] text-xl md:text-2xl line font-normal">
             OUR CATEGORIE:
           </h1>
           <div className=" flex justify-between md:w-[4%]">
@@ -44,7 +44,7 @@ const Categories = () => {
             <ArrowForwardIosIcon style={{ fontSize: 30, color: "gray" }} />
           </div>
         </div>
-        <div className="  md:mt-8 mb-2 ">
+        <div className=" md:mt-8 mt-6">
           <Carousel
             centerMode={true}
             swipeable={true}
@@ -59,17 +59,17 @@ const Categories = () => {
             //transitionDuration={500}
             containerClass="carousel-container"
             useKeyboardArrows={false}
-            removeArrowOnDeviceType={["tablet", "mobile"]}
+            removeArrowOnDeviceType={["tablet", "mobile","desktop"]}
             //deviceType={this.props.deviceType}
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item-padding-40-px"
           >
             {images.map((url, index) => (
-              <div className="min-w-[80%] min-h-[22rem] h-48 w-64   md:h-44 p-14 md:p-0 ">
+              <div className="h-full w-[100%]  ">
                 <img
                   src={url}
                   key={index}
-                  className="h-full w-full rounded-[1rem]  sm:rounded-[2rem]"
+                  className=" w-[76%] sm:w-[86%]  sm:h-80 h-60 rounded-[1rem] mx-auto sm:rounded-[2rem] "
                 />
               </div>
             ))}
