@@ -69,7 +69,7 @@ const Categories = () => {
                 <img
                   src={url}
                   key={index}
-                  className=" w-[76%] sm:w-[86%]  sm:h-80 h-60 rounded-[1rem] mx-auto sm:rounded-[2rem] "
+                  className=" w-[80%] md:w-[86%]  md:h-80 h-44 rounded-[1rem] mx-auto sm:rounded-[2rem] "
                 />
               </div>
             ))}
